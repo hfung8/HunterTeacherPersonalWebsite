@@ -3,7 +3,7 @@ display: block;
 margin: 8px;
 font-family: 'Catamaran', sans-serif;
 font-size: 20px;
-background-image: url("../public/images/background2.jpeg");
+background-image: url("background2.jpeg");
 }
 
 #container {
