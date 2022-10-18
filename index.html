@@ -7,36 +7,57 @@
     <title>Harrison's Portfolio</title>
     <!-- Google Fonts -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway+Dots&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Catamaran&display=swap');
     </style>
     <link rel="stylesheet" href="public/style.css">
 </head>
     <header>
-        Hi, I'm Harrison. I am a teacher at The Academy for Software Engingeering, and I love to build beautiful, functional websites.
+        Hi, I'm Harrison. I am a Full Stack Developer, and I love to build beautiful, functional websites.
     </header>
-    <nav>
+    <nav class="dropdowns">
         <div id="left-nav">
             <ul> 
-                <h1>Home</h1>
+                <nav class="accordion">
+                    <a class="nostyle">Home</a>
+                </nav>
             </ul>
             <ul>
-                <h1>WordPress+</h1>
+                <nav class="accordion">
+                    <a class="title">WordPress+</a>
+                    <a href="#themes">Themes</a>
+                    <a href="#plugins">Plugins</a>
+                    <a href="#tutorials">Tutorials</a>
+                </nav>
             </ul>
             <ul>
-                <h1>Web Design+</h1>
+                <nav class="accordion">
+                    <a class="title">Web Design+</a>
+                    <a href="#resources">Resources</a>
+                    <a href="#plugins">Plugins</a>
+                    <a href="#tutorials">Tutorials</a>
+                </nav>    
             </ul>
             <ul>
-                <h1>Graphic Design</h1>
+                <nav class="title">
+                    <a class="nostyle">Graphic Design</a>
+                </nav>
             </ul>
             <ul>
-                <a href="#contact"><h1>Connect with me</h1></a>
+                <a href="#contact"><span>Connect with me</span></a>
             </ul>
-        </div>
-        <div>
-
         </div>
     </nav>
 <body>
+    <div id="container">
+    <h1>My Background</h1>
+    <img id="harryCircle" src="public/images/harrycircle.png"/>
+    <hr>
+    <h2 id="qualities">Creative|Empathetic|Hard Working</h2>
+    <hr>
+    </div>
+    <span class="backgroundText">I have a passion for coding and helping others to attain their coding goals.</span>
+    <h1>About me</h1>
+    <span class="aboutMeText">I am a Web Developer and Teaching Assistant at Columbia Engineering Coding Bootcamp and a MEd Candidate in Computer Science at Hunter College with plans to teach computer science in the New York City Public School System. Coding has been a passion of mine since completing the Rutgers Coding Bootcamp in 2017. Since then I’ve taught JavaScript, CSS3 and HTML5, jQuery, JavaScript, and Bootstrap, and have worked on mobile development with IOS apps, including Swift and Swift UI.</span>
     <div>
         <h1 id="contact">Connect with me</h1>
         <form>
@@ -47,6 +68,5 @@
         </form>
     </div>
 
-    
 </body>
 </html>
